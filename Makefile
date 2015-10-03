@@ -4,7 +4,7 @@ DELKOS = base.ko kill.ko ls.ko read.ko remoto.ko
 S_ENT = 0x`grep sysenter_entry /proc/kallsyms | head -c 8`
 VERSION = v1.2
 CC = gcc
-CFLAGS += -fomit-frame-pointer
+EXTRA_CFLAGS += -fomit-frame-pointer
 
 all:
 	@echo

